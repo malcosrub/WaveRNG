@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1d2129;
+    color: #1171df;
+}
+
+#random-number {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#pause-button {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #1171df;
+    color: #1d2129;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#pause-button:active {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1171df;
+}
